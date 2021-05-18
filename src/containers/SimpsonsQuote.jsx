@@ -3,7 +3,7 @@ import { Load } from '../components/quote/Load';
 import { Quote } from '../components/quote/Quote';
 import { getQuote } from '../services/simpsonsApi';
 
-export const SimpsonsQuote = () => {
+const SimpsonsQuote = () => {
   const [quote, setQuote] = useState({
     character: '',
     text: '',
@@ -29,4 +29,4 @@ export const SimpsonsQuote = () => {
   );
 };
 
-
+export default SimpsonsQuote;
